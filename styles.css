@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	width:0px;
+	height:0px;
+}
+div.box1{
+
+	position: fixed;
+	z-index:0;
+	position: relative;
+	background-color: yellow;
+	transition: width 2s, height 2s;
+
+}
+
+button {
+	border-radius: 10px;
+	height: 100px;
+	width: 600px;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: helvetica;
+	padding: none;
+	margin: none;
+}
+.wide{
+	width:300px;
+	height:300px;
+}
+
+.inner{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	/*border:solid;*/
+	width:30px;
+	height:30px;
+}
+.adjust{
+	right: 10px;
+}
+.s{
+	position: absolute;
+	top: 0px;
+	right: 250px;
+
+}
+
+#close{
+	display:flex;
+	color:white;
+	width: 1300px;
+	height: 20px;
+	background-color: black;
+	align-items:center;
+	justify-content:center;
+	
+}
+#close:hover{
+	color:grey;
+}
+
+
+
+.brown:hover{
+
+	color:brown;
+}
+.pink:hover{
+	color:pink;
+}
+.blue:hover{
+	color:blue;
+}
+.green:hover{
+	color:green;
+}
+
+li {
+	font-size: 22px;
+	text-decoration: underline;
+}
+
